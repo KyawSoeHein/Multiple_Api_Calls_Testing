@@ -1,0 +1,18 @@
+[
+  {
+    "description": "test scenario 1",
+    "method": "get",
+    "header": {
+      "x-collection-id": "100000"
+    },
+    "body": ""
+  },
+  {
+    "description": "test scenario 2",
+    "method": "get",
+    "header": {
+      "x-collection-id": "100000"
+    },
+    "body": ""
+  }
+]
