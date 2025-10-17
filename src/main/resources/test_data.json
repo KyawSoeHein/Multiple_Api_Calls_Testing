@@ -2,17 +2,23 @@
   {
     "description": "test scenario 1",
     "method": "get",
+    "pathVar": "",
     "header": {
-      "x-collection-id": "100000"
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg3NTYzNDkzOTI5LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjIyMjAyOTA5MzU0LCJoYXNoIjoiMjBkOTBhNjFjZWU1NzFlNjRkMzEwNmUwNTZkYWYyOTIiLCJhdXRob3JpdGllcyI6Ilt7XCJyb2xlc1wiOntcIlJPTEVfUkVHX1VTRVJcIjp7XCJidXNpbmVzc1wiOntcIjEwMDAwXCI6e1wicHJpdmlsZWdlc1wiOlt7XCJwcml2aWxlZ2VcIjpcInBheW1lbnQvcmVndXNlci9hbGxcIn1dfX0sXCJ0eXBlXCI6XCJTVEFOREFSRFwifX19XSIsInVzZXJuYW1lIjoiNzE1MjQyMjE1In0.wLqDHgx3UhcylyjWB8fneEWQ5nzHZAdLvGjfgDDzB04",
+      "x-channel-id": "app",
+      "x-collection-id": "10000"
     },
-    "body": ""
+    "body": "\"{\\n    \\\"showAllProfiles\\\" : true\\n}\""
   },
   {
     "description": "test scenario 2",
     "method": "get",
+    "pathVar": "",
     "header": {
-      "x-collection-id": "100000"
+      "x-collection-id": "10000",
+      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg3NTYzNDkzOTI5LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjIyMjAyOTA5MzU0LCJoYXNoIjoiMjBkOTBhNjFjZWU1NzFlNjRkMzEwNmUwNTZkYWYyOTIiLCJhdXRob3JpdGllcyI6Ilt7XCJyb2xlc1wiOntcIlJPTEVfUkVHX1VTRVJcIjp7XCJidXNpbmVzc1wiOntcIjEwMDAwXCI6e1wicHJpdmlsZWdlc1wiOlt7XCJwcml2aWxlZ2VcIjpcInBheW1lbnQvcmVndXNlci9hbGxcIn1dfX0sXCJ0eXBlXCI6XCJTVEFOREFSRFwifX19XSIsInVzZXJuYW1lIjoiNzE1MjQyMjE1In0.wLqDHgx3UhcylyjWB8fneEWQ5nzHZAdLvGjfgDDzB04",
+      "x-channel-id": "app"
     },
-    "body": ""
+    "body": "\"{\\n    \\\"showAllProfiles\\\" : true\\n}\""
   }
 ]

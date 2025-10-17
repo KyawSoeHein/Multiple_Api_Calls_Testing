@@ -4,6 +4,7 @@ import okhttp3.RequestBody
 
 data class TestData(
     val description: String,
+    val pathVar: String,
     val method: String,
     val header: Map<String, String>,
     val body: String
