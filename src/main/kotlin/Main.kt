@@ -22,6 +22,9 @@ val mapper = jacksonObjectMapper()
 const val testDataFileName : String = "test_data.json"
 val client: OkHttpClient = getUnsafeOkHttpClient()
 val mediaType = "application/json; charset=utf-8".toMediaTypeOrNull()
+val GREEN = "\u001B[32m"
+val RED = "\u001B[31m"
+val RESET = "\u001B[0m"
 
 fun main() {
     val testDataList : List<TestData> = readFile()
@@ -32,8 +35,8 @@ fun main() {
     println()
 
     testDataList.forEach { testData: TestData ->
-        val oldPMResponse: ApiResponse = callPMApi(oldPMUrl, testDataList[0])
-        val newPMResponse: ApiResponse = callPMApi(newPMUrl, testDataList[0])
+        val oldPMResponse: ApiResponse = callPMApi(oldPMUrl, testData)
+        val newPMResponse: ApiResponse = callPMApi(newPMUrl, testData)
 
         val leftLines = mapper.readTree(oldPMResponse.response).toPrettyString().lines()
         val rightLines = mapper.readTree(newPMResponse.response).toPrettyString().lines()
@@ -43,7 +46,7 @@ fun main() {
 
         val isMatched: Boolean = compareTwoResponse(oldPMResponse, newPMResponse)
 
-        println("Is Matched: $isMatched")
+        println("Is Matched: ${if (isMatched) "$GREEN$isMatched$RESET" else "$RED$isMatched$RESET"}")
         println("Test Data Description: ${testData.description}")
 
         val prettyHeader = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(testData.header)
