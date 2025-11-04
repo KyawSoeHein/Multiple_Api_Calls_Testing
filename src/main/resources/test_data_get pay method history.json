@@ -1,0 +1,35 @@
+[
+  {
+    "description": "Test get pay method history for 717291518 without channel header",
+    "method": "get",
+    "pathVar": "/717291518",
+    "header": {
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTcyOTE1MTgifQ.MT6Ipe_YGrARBpdFC0aDYYO0RiIh3yevUNUAklqk_pi7ro8XQsgaj8nKVZluXRbl4TsxvOUD7G9qg2aj2qxllA",
+      "x-channel-id": "",
+      "x-collection-id": "10000"
+    },
+    "body": ""
+  },
+  {
+    "description": "Test Get Primary Card for for 716502533 without collectionid",
+    "method": "get",
+    "pathVar": "/716502533",
+    "header": {
+      "x-collection-id": "",
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTY1MDI1MzMifQ.na1NR9XXEcITfteUN6-MINLW3gu991FLmOx9QUd8ZCEZ38Pm8y9Qxng1IswLlGt2BYWSk2BbbZt0QVVPjRz-7A",
+      "x-channel-id": "app"
+    },
+    "body": ""
+  },
+  {
+    "description": "Test Get Primary Card for for 716502533 without auth header",
+    "method": "get",
+    "pathVar": "/716502533",
+    "header": {
+      "x-collection-id": "10000",
+      "x-auth-token": "",
+      "x-channel-id": "app"
+    },
+    "body": ""
+  }
+]

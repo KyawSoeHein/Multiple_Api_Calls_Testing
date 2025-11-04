@@ -1,0 +1,35 @@
+[
+  {
+    "description": "Test get ariatransaction for 717044983 with channelid app",
+    "method": "get",
+    "pathVar": "",
+    "header": {
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTcwNDQ5ODMifQ.k2Im_a-8ER49FQWfLPQy-pQRoUdxagGq2u72r-d6MACnvUPZlHBGLkIHwWKinhwCw6TBtcZhfWHt0LU2BUNtLw",
+      "x-channel-id": "app",
+      "x-collection-id": "10000"
+    },
+    "body": ""
+  },
+  {
+    "description": "Test get ariatransaction for 717044983 with channelid agcon",
+    "method": "get",
+    "pathVar": "",
+    "header": {
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTcwNDQ5ODMifQ.k2Im_a-8ER49FQWfLPQy-pQRoUdxagGq2u72r-d6MACnvUPZlHBGLkIHwWKinhwCw6TBtcZhfWHt0LU2BUNtLw",
+      "x-channel-id": "agcon",
+      "x-collection-id": "10000"
+    },
+    "body": ""
+  },
+  {
+    "description": "Test get ariatransaction for 717044983 without channel header",
+    "method": "get",
+    "pathVar": "",
+    "header": {
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTcwNDQ5ODMifQ.k2Im_a-8ER49FQWfLPQy-pQRoUdxagGq2u72r-d6MACnvUPZlHBGLkIHwWKinhwCw6TBtcZhfWHt0LU2BUNtLw",
+      "x-channel-id": "",
+      "x-collection-id": "10000"
+    },
+    "body": ""
+  }
+]

@@ -1,24 +1,35 @@
 [
   {
-    "description": "test scenario 1",
+    "description": "Test get gettransaction for 717310275 with channelid app",
     "method": "get",
-    "pathVar": "",
+    "pathVar": "/1088946",
     "header": {
-      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg3NTYzNDkzOTI5LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjIyMjAyOTA5MzU0LCJoYXNoIjoiMjBkOTBhNjFjZWU1NzFlNjRkMzEwNmUwNTZkYWYyOTIiLCJhdXRob3JpdGllcyI6Ilt7XCJyb2xlc1wiOntcIlJPTEVfUkVHX1VTRVJcIjp7XCJidXNpbmVzc1wiOntcIjEwMDAwXCI6e1wicHJpdmlsZWdlc1wiOlt7XCJwcml2aWxlZ2VcIjpcInBheW1lbnQvcmVndXNlci9hbGxcIn1dfX0sXCJ0eXBlXCI6XCJTVEFOREFSRFwifX19XSIsInVzZXJuYW1lIjoiNzE1MjQyMjE1In0.wLqDHgx3UhcylyjWB8fneEWQ5nzHZAdLvGjfgDDzB04",
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTczMTAyNzUifQ.ZWL2j2eCSaxq3JCeV6hennw6l94lHlRRn2khndc5BMBqVBJU-3SzPK8xdLV3buo3zVedRtBQjJ4jyK3-qfgAMg",
       "x-channel-id": "app",
       "x-collection-id": "10000"
     },
-    "body": "\"{\\n    \\\"showAllProfiles\\\" : true\\n}\""
+    "body": ""
   },
   {
-    "description": "test scenario 2",
+    "description": "Test get gettransaction for 717310275 with channelid agcon",
     "method": "get",
-    "pathVar": "",
+    "pathVar": "/1088946",
     "header": {
-      "x-collection-id": "10000",
-      "x-auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg3NTYzNDkzOTI5LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjIyMjAyOTA5MzU0LCJoYXNoIjoiMjBkOTBhNjFjZWU1NzFlNjRkMzEwNmUwNTZkYWYyOTIiLCJhdXRob3JpdGllcyI6Ilt7XCJyb2xlc1wiOntcIlJPTEVfUkVHX1VTRVJcIjp7XCJidXNpbmVzc1wiOntcIjEwMDAwXCI6e1wicHJpdmlsZWdlc1wiOlt7XCJwcml2aWxlZ2VcIjpcInBheW1lbnQvcmVndXNlci9hbGxcIn1dfX0sXCJ0eXBlXCI6XCJTVEFOREFSRFwifX19XSIsInVzZXJuYW1lIjoiNzE1MjQyMjE1In0.wLqDHgx3UhcylyjWB8fneEWQ5nzHZAdLvGjfgDDzB04",
-      "x-channel-id": "app"
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTczMTAyNzUifQ.ZWL2j2eCSaxq3JCeV6hennw6l94lHlRRn2khndc5BMBqVBJU-3SzPK8xdLV3buo3zVedRtBQjJ4jyK3-qfgAMg",
+      "x-channel-id": "agcon",
+      "x-collection-id": "10000"
     },
-    "body": "\"{\\n    \\\"showAllProfiles\\\" : true\\n}\""
+    "body": ""
+  },
+  {
+    "description": "Test get gettransaction for 717310275 without channel header",
+    "method": "get",
+    "pathVar": "/1088946",
+    "header": {
+      "x-auth-token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkIjoxNTg1OTA3NTM0ODU2LCJhY3Rpbmd1c2VybmFtZSI6IjAiLCJleHAiOjI1MzMxMDY0ODUsImhhc2giOiI1NjQwNDc2MWI4NjNlNTZhYzY0ZDliMzhhYTA1MmJkMSIsImF1dGhvcml0aWVzIjoiW3tcInJvbGVzXCI6e1wiUk9MRV9SRUdfVVNFUlwiOntcImJ1c2luZXNzXCI6e1wiMTAwMDBcIjp7XCJwcml2aWxlZ2VzXCI6W3tcInByaXZpbGVnZVwiOlwicGF5bWVudC9yZWd1c2VyL2FsbFwifV19fSxcInR5cGVcIjpcIlNUQU5EQVJEXCJ9fX1dIiwidXNlcm5hbWUiOiI3MTczMTAyNzUifQ.ZWL2j2eCSaxq3JCeV6hennw6l94lHlRRn2khndc5BMBqVBJU-3SzPK8xdLV3buo3zVedRtBQjJ4jyK3-qfgAMg",
+      "x-channel-id": "",
+      "x-collection-id": "10000"
+    },
+    "body": ""
   }
 ]

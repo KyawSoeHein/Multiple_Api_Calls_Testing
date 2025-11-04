@@ -2,7 +2,6 @@ package org.gic
 
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
-import okhttp3.Headers
 import okhttp3.Headers.Companion.toHeaders
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.OkHttpClient
@@ -19,7 +18,7 @@ import javax.net.ssl.TrustManager
 import javax.net.ssl.X509TrustManager
 
 val mapper = jacksonObjectMapper()
-const val testDataFileName : String = "test_data.json"
+const val testDataFileName : String = "test_data_ariatransaction.json"
 val client: OkHttpClient = getUnsafeOkHttpClient()
 val mediaType = "application/json; charset=utf-8".toMediaTypeOrNull()
 val GREEN = "\u001B[32m"
